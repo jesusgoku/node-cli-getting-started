@@ -1,8 +1,21 @@
 {
   "name": "node-cli-getting-started",
   "version": "1.0.0",
+  "main": "dist/index.js",
   "license": "MIT",
+  "bin": {
+    "ncgt": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "start": "node dist",
+    "dev": "node -r esm src",
+    "build": "babel -d dist src",
+    "prestart": "yarn run build",
+    "prepublishOnly": "yarn run build",
+    "prepack": "yarn run build",
     "code:check": "yarn code:lint; yarn code:format --check",
     "code:clean": "yarn code:lint --fix; yarn code:format --write",
     "code:lint": "eslint --ext .js,.jsx,.ts,.tsx \"src/\"",
