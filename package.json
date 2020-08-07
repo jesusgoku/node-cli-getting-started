@@ -1,5 +1,5 @@
 {
-  "name": "node-cli-getting-started",
+  "name": "@jesusgoku/node-cli-getting-started",
   "version": "1.1.0",
   "main": "dist/index.js",
   "license": "MIT",
