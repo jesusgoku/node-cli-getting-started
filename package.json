@@ -1,7 +1,6 @@
 {
   "name": "node-cli-getting-started",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "code:check": "yarn code:lint; yarn code:format --check",
@@ -11,6 +10,16 @@
     "code:check:rules": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "esm": "^3.2.25",
     "poetic": "^1.5.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3"
   }
 }
