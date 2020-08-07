@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/jesusgoku/node-cli-getting-started/compare/v1.0.0...v1.1.0) (2020-08-07)
+
+
+### Features
+
+* add registry info ([6246674](https://github.com/jesusgoku/node-cli-getting-started/commit/6246674f35a93aecd91f943b0d2e126e81b40e20))
+
 ## 1.0.0 (2020-08-07)
 
 
