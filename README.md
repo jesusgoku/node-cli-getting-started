@@ -18,7 +18,7 @@ yarn add node-cli-getting-started
 node install --save node-cli-getting-started
 ```
 
-## Usge
+## Usage
 
 ```bash
 # Display help with available commands
@@ -32,4 +32,17 @@ ncgt hello <name>
 
 # Run "echo" command
 ncgt echo <messages...>
+```
+
+## Release
+
+```bash
+# Check next release is correct
+yarn run release --dry-run
+
+# Make next release
+yarn run release
+
+# Push code to remote and publish to registry
+git push --follow-tags origin master && yarn publish --non-interactive
 ```
