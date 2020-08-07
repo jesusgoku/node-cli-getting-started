@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/jesusgoku/node-cli-getting-started/compare/v1.1.0...v1.2.0) (2020-08-07)
+
+
+### Features
+
+* add github namespace to package ([8422e99](https://github.com/jesusgoku/node-cli-getting-started/commit/8422e9944650d01f999ba18853af860d799635c9))
+
 ## [1.1.0](https://github.com/jesusgoku/node-cli-getting-started/compare/v1.0.0...v1.1.0) (2020-08-07)
 
 
