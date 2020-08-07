@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/jesusgoku/node-cli-getting-started/compare/v1.3.0...v1.4.0) (2020-08-07)
+
+
+### Features
+
+* add exclamation sign to hello command ([a8d295a](https://github.com/jesusgoku/node-cli-getting-started/commit/a8d295a9559d4207f13b5ecb3d6310da026173ea))
+
 ## [1.3.0](https://github.com/jesusgoku/node-cli-getting-started/compare/v1.2.0...v1.3.0) (2020-08-07)
 
 
