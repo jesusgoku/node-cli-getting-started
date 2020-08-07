@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/jesusgoku/node-cli-getting-started/compare/v1.2.0...v1.3.0) (2020-08-07)
+
+
+### Features
+
+* add .yarnrc ([69a5b0e](https://github.com/jesusgoku/node-cli-getting-started/commit/69a5b0ed88d7931368b717633fd573672487bffb))
+
 ## [1.2.0](https://github.com/jesusgoku/node-cli-getting-started/compare/v1.1.0...v1.2.0) (2020-08-07)
 
 
